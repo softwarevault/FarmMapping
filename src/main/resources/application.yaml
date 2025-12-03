@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: farm-mapping
+  datasource:
+    url: jdbc:postgresql://localhost:5432/treemapper
+    username: treemapper
+    password: treemapper
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  sql:
+    init:
+      mode: never
