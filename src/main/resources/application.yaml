@@ -14,3 +14,7 @@ spring:
   sql:
     init:
       mode: never
+
+app:
+  storage:
+    root-dir: ./data/photos
