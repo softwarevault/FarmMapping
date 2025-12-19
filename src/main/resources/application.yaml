@@ -17,4 +17,4 @@ spring:
 
 app:
   storage:
-    root-dir: ./data/photos
+    photosDir: ./data/photos
